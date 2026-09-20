@@ -63,6 +63,21 @@ https://openlibrary.org/search.json
 The application sends the user's search query to the API and processes the JSON response to display book details.
 
 ---
+## 👩‍💻 Author
+
+**Yadhushri B. S**
+
+B.Tech Computer Science and Engineering  
+3rd Year  
+[Your College Name]
+
+### Project Details
+
+**Project Name:** Book Search Dashboard  
+**Project Type:** Academic Student Project  
+**Technology:** Python, Streamlit  
+**API:** Open Library Search API
+
 
 ## 🔄 How the Project Works
 
@@ -130,18 +145,4 @@ The project includes automated tests for:
 - Add search history
 - Add SQLite database
 - Improve responsive UI
-```text
-## 👩‍💻 Author
-
-**Yadhushri B. S**
-
-B.Tech Computer Science and Engineering  
-3rd Year  
-[Your College Name]
-
-### Project Details
-
-**Project Name:** Book Search Dashboard  
-**Project Type:** Academic Student Project  
-**Technology:** Python, Streamlit  
-**API:** Open Library Search API
+---
