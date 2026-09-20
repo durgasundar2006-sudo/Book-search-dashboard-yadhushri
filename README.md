@@ -1,38 +1,85 @@
 # 📚 Book Search Dashboard
 
-A Streamlit-based Book Search Dashboard that uses the Open Library Search API to search and display book information.
+A Streamlit-based Book Search Dashboard that allows users to search for books using the Open Library Search API.
 
-## 📌 Project Overview
+## 📌 About the Project
 
-This project allows users to search for books using a title, author name, or keyword. The application fetches real-time book information from the Open Library API and displays the results in a simple dashboard.
+The Book Search Dashboard is a web-based application developed using Python and Streamlit.
+
+It allows users to search for books using a book title, author name, or keyword. The application retrieves real-time book information from the Open Library Search API and displays the results in a simple dashboard.
+
+---
+
+## 🎯 Objectives
+
+- To create a simple book search application.
+- To learn how to work with a real-time API.
+- To understand JSON data handling in Python.
+- To display API data using Streamlit.
+- To provide useful book information through a simple interface.
+
+---
 
 ## ✨ Features
 
-- Search books by title, author, or keyword
+- Search books by title
+- Search books by author
+- Search books using keywords
 - Display book covers
 - Display book title
-- Display author information
+- Display author name
 - Display publication year
 - Display publisher
 - Display edition count
 - Open the book on Open Library
-- Quick search suggestions
-- Handle empty searches
-- Handle API and network errors
+- Quick search options
+- Error handling for API and network problems
+
+---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Streamlit
-- Open Library Search API
-- JSON
-- unittest
+| Technology | Usage |
+|---|---|
+| Python | Application development |
+| Streamlit | Web application interface |
+| Open Library Search API | Fetching book information |
+| JSON | Handling API response data |
+| unittest | Testing the application |
+| GitHub | Source code management |
+
+---
 
 ## 🔗 API Used
 
-Open Library Search API:
+### Open Library Search API
+
+This project uses the Open Library Search API to retrieve book information.
+
+API:
 
 https://openlibrary.org/search.json
+
+The application sends the user's search query to the API and processes the JSON response to display book details.
+
+---
+
+## 🔄 How the Project Works
+
+```text
+User enters search
+        ↓
+Streamlit interface
+        ↓
+Search query
+        ↓
+Open Library Search API
+        ↓
+JSON response
+        ↓
+Python processes the data
+        ↓
+Book information displayed
 
 ## 📂 Project Structure
 
@@ -83,6 +130,12 @@ The project includes automated tests for:
 - Add search history
 - Add SQLite database
 - Improve responsive UI
+
 ## 👩‍💻 Author
 
-Yadhushri B. S
+**Yadhushri B. S**
+
+- Course: B.Tech Computer Science and Engineering
+- Year: 3rd Year
+- College: WOMEN'S ENGINEERING COLLEGE, PONDICHERRY 
+- Project Type: Academic / Student Project
