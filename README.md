@@ -69,7 +69,7 @@ The application sends the user's search query to the API and processes the JSON 
 
 B.Tech Computer Science and Engineering  
 3rd Year  
-[Your College Name]
+WOMEN'S ENGINEERING COLLEGE, PONDICHERRY 
 
 ### Project Details
 
