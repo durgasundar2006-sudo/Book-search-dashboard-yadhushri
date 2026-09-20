@@ -131,11 +131,14 @@ The project includes automated tests for:
 - Add SQLite database
 - Improve responsive UI
 
-## 👩‍💻 Author
-
-**Yadhushri B. S**
-
-- Course: B.Tech Computer Science and Engineering
-- Year: 3rd Year
-- College: WOMEN'S ENGINEERING COLLEGE, PONDICHERRY 
-- Project Type: Academic / Student Project
+👩‍💻 Author
+Yadhushri B. S
+Course: B.Tech Computer Science and Engineering
+Year: 3rd Year
+College:  WOMEN'S ENGINEERING COLLEGE, PONDICHERRY 
+📚 Project Information
+Project: Book Search Dashboard
+Domain: Web Application
+Technology: Python, Streamlit
+API: Open Library Search API
+Project Type: Academic / Student Project
