@@ -198,7 +198,7 @@ The Data Flow Diagram represents how the search query and book information move 
 
 The data flow of the Book Search Dashboard is shown below.
 
-![Data Flow Diagram](data-%20flowdiagram.png)
+![Data Flow Diagram](./Data-Flow-Diagram.png)
 
 ---
 
