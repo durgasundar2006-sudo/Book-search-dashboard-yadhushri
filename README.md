@@ -132,7 +132,7 @@ The main dashboard provides a simple and user-friendly interface where users can
 
 **Screenshot:**
 
-![Book Search Dashboard](images/book.png)
+![Book Search Dashboard](/book.png)
 
 ---
 
@@ -142,7 +142,7 @@ The search results section displays books matching the user's search query along
 
 **Screenshot:**
 
-![Book Search Result](images/book2.png)
+![Book Search Result](/book2.png)
 
 ---
 
@@ -152,7 +152,7 @@ The application displays available information about each book, including the bo
 
 **Screenshot:**
 
-![Book Information](images/book4.png)
+![Book Information](/book4.png)
 
 ---
 
@@ -162,7 +162,7 @@ Available book cover images are displayed along with the corresponding search re
 
 **Screenshot:**
 
-![Book Cover Display](images/book5.png)
+![Book Cover Display](/book5.png)
 
 ---
 
@@ -176,7 +176,7 @@ The Book Search Dashboard follows a simple architecture in which the user intera
 
 The system architecture of the Book Search Dashboard is shown below.
 
-![System Architecture](images/system-architecture.png)
+![System Architecture](/system-architecture.png)
 
 ---
 
@@ -188,7 +188,7 @@ The system follows a simple sequence from entering a search query to displaying 
 
 The system flow of the Book Search Dashboard is shown below.
 
-![System Flowchart](images/system-flowchart.png)
+![System Flowchart](/system-flowchart.png)
 
 ---
 🔁 Data Flow Diagram
@@ -198,11 +198,12 @@ The Data Flow Diagram represents how the search query and book information move 
 
 The data flow of the Book Search Dashboard is shown below.
 
-![Data Flow Diagram](images/data-flow-diagram.png)
+![Data Flow Diagram](/data-flow-diagram.png)
 
 ---
 
 ##🗂️ Project Structure
+
 The project contains the main Streamlit application file along with the required documentation and configuration files.
 Book-search-dashboard-yadhushri/
 │
@@ -223,6 +224,7 @@ pip install -r requirements.txt
 ---
 
 ##▶️ How to Run the Application:
+
 Run the Streamlit application using:
 streamlit run app.py
 After running the command, Streamlit will provide a local URL.
@@ -230,6 +232,7 @@ Open the displayed URL in a web browser to access the Book Search Dashboard.
 
 ---
 ##🚀 Key Project Features
+
 ✅ Search books using title, author, or keyword
 ✅ Retrieve book information using the Open Library Search API
 ✅ Process JSON data received from the API
@@ -244,6 +247,7 @@ Open the displayed URL in a web browser to access the Book Search Dashboard.
 ---
 
 ##🔌 Open Library API Integration
+
 The project uses the Open Library Search API to retrieve book information based on the search query entered by the user.
 The application sends the search request to the Open Library API and receives the matching book records in JSON format. The required information is then extracted from the response and displayed through the Streamlit dashboard.
 The API allows the application to retrieve book information without maintaining a separate database of book records.
@@ -251,6 +255,7 @@ The API allows the application to retrieve book information without maintaining 
 ---
 
 ##🔄 Application Workflow
+
 The application processes a book search through the following pipeline:
 Enter Book Title / Author / Keyword
               ↓
@@ -271,6 +276,7 @@ Enter Book Title / Author / Keyword
  ---
  
 ##📊 Search Options
+
 The application allows users to search for books using different types of search information.
 Book Title
 Users can enter the title of a book to retrieve matching book records from the Open Library Search API.
@@ -282,6 +288,7 @@ Users can enter a keyword to discover books related to the provided search term.
 ---
 
 ##📖 Book Details Displayed
+
 The application displays the available information retrieved from the Open Library Search API.
 The displayed information may include:
 Book Title
@@ -295,6 +302,7 @@ The availability of individual details depends on the information provided by th
 ---
 
 ##🧩 Application Components
+
 The Book Search Dashboard consists of several components that work together to provide the book search functionality.
 Search Interface
 The search interface allows users to enter a title, author name, or keyword and initiate a book search.
