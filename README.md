@@ -208,6 +208,7 @@ No separate database is required to store book records.
 
 The application processes a book search through the following pipeline:
 
+
 Enter Book Title / Author / Keyword
 
               ↓
