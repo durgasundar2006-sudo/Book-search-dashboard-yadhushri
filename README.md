@@ -1,5 +1,6 @@
 # 📚 Book Search Dashboard
-Introduction and Objective
+
+## Introduction and Objective
 
 The Book Search Dashboard is a Streamlit-based web application for searching books.
 It uses the Open Library Search API to retrieve book information.
@@ -9,19 +10,8 @@ Required book details are displayed in an organized format.
 Available book cover images and Open Library links are also provided.
 The project demonstrates Python, Streamlit, API integration, and JSON processing.
 It provides a simple and user-friendly platform to explore book information.
+
 ---
-
-## 🛠️ Tools and Technologies Used
-
-### Application Development
-
-| Technology | Purpose |
-|---|---|
-| Python | Used as the core programming language for developing the application. |
-| Streamlit | Used to create the interactive Book Search Dashboard. |
-| Open Library Search API | Used to retrieve book information based on user search queries. |
-| JSON | Used to process and handle the data received from the API. |
-| urllib | Used to send API requests and retrieve data from the Open Library API. |
 
 ### Development Tool
 
@@ -56,7 +46,8 @@ The system flow of the Book Search Dashboard is shown below.
 ![System Flowchart](./System-flowchart.png)
 
 ---
-🔁 Data Flow Diagram
+# 🔁 Data Flow Diagram
+
 The Data Flow Diagram represents how the search query and book information move between the user, application, and Open Library Search API.
 
 The data flow of the Book Search Dashboard is shown below.
@@ -119,7 +110,7 @@ Available book cover images are displayed along with the corresponding search re
 
 ---
 
-##🗂️ Project Structure
+## 🗂️ Project Structure
 
 The project contains the main Streamlit application file along with the required documentation and configuration files.
 
@@ -139,22 +130,25 @@ Book-search-dashboard-yadhushri/
 └── Data-Flow-Diagram.png
 
 ---
-##⚙️ Installation Steps
+## ⚙️ Installation Steps
 
-Step 1: Clone Repository
+### Step 1: Clone Repository
+
 Clone the project repository from GitHub using:
 git clone https://github.com/durgasundar2006-sudo/Book-search-dashboard-yadhushri.git
 
-Step 2: Navigate to Project Folder
+### Step 2: Navigate to Project Folder
 cd Book-search-dashboard-yadhushri
 
-Step 3: Install Required Dependencies
+### Step 3: Install Required Dependencies
+
 Install the required Python packages using:
 pip install -r requirements.txt
 
 ---
 
-##▶️ How to Run the Application:
+## ▶️ How to Run the Application:
+
 
 Run the Streamlit application using:
 streamlit run app.py
@@ -162,7 +156,7 @@ After running the command, Streamlit will provide a local URL.
 Open the displayed URL in a web browser to access the Book Search Dashboard.
 
 ---
-##🚀 Key Project Features
+## 🚀 Key Project Features
 
 ✅ Search books using title, author, or keyword
 
@@ -186,7 +180,7 @@ Open the displayed URL in a web browser to access the Book Search Dashboard.
 
 ---
 
-##🔌 Open Library API Integration
+## 🔌 Open Library API Integration
 
 The project uses the Open Library Search API to retrieve book information.
 The application sends user search queries to the API.
@@ -196,7 +190,7 @@ No separate database is required to store book records.
 
 ---
 
-##🔄 Application Workflow
+## 🔄 Application Workflow
 
 The application processes a book search through the following pipeline:
 Enter Book Title / Author / Keyword
@@ -217,25 +211,25 @@ Enter Book Title / Author / Keyword
 
  ---
  
-##📊 Search Options
+## 📊 Search Options
 
 The application allows users to search for books using different types of search information.
 
-Book Title
+### Book Title
 
 Users can enter the title of a book to retrieve matching book records from the Open Library Search API.
 
-Author
+### Author
 
 Users can enter an author's name to find books associated with that author.
 
-Keyword
+### Keyword
 
 Users can enter a keyword to discover books related to the provided search term.
 
 ---
 
-##📖 Book Details Displayed
+## 📖 Book Details Displayed
 
 The application displays the available information retrieved from the Open Library Search API.
 The displayed information may include:
@@ -249,7 +243,7 @@ The availability of individual details depends on the information provided by th
 
 ---
 
-##🧩 Application Components
+## 🧩 Application Components
 
 The Book Search Dashboard consists of several components working together.
 
@@ -267,7 +261,7 @@ The Book Search Dashboard consists of several components working together.
 
 ---
 
-##🌐 Deployment
+## 🌐 Deployment
 
 The Book Search Dashboard is made available as an online web application. The project source code is maintained in GitHub, while Streamlit is used to run and present the interactive dashboard.
 Technology
@@ -279,7 +273,7 @@ Used to maintain and manage the project source code.
 
 ----
 
-##📌 GitHub Repository
+## 📌 GitHub Repository
 
 The complete source code and project documentation are maintained in the GitHub repository.
 Repository:
@@ -287,27 +281,45 @@ https://github.com/durgasundar2006-sudo/Book-search-dashboard-yadhushri⁠�
 
 ---
 
-##❓ FAQ
+## ❓ FAQ
 
 1. What is the Book Search Dashboard?
+   
 The Book Search Dashboard is a Streamlit-based web application that allows users to search and explore book information using the Open Library Search API.
-2. What can users search for?
+
+3. What can users search for?
+   
 Users can search for books using a book title, author name, or keyword.
-3. Where does the book information come from?
+4. Where does the book information come from?
+
 The application retrieves book information from the Open Library Search API.
-4. Does the application use a database?
+
+5. Does the application use a database?
+   
 No. The application retrieves book information directly from the Open Library Search API and does not require a separate database.
-5. What information is displayed for each book?
+
+6. What information is displayed for each book?
+   
 Depending on the information available from the API, the application can display the book title, author, publication year, publisher, cover image, and Open Library link.
-6. Does the application require authentication?
+
+7. Does the application require authentication?
+   
 No. The application does not require user authentication or account creation to perform book searches.
-7. What technologies are used in this project?
+
+8. What technologies are used in this project?
+   
 The project uses Python, Streamlit, the Open Library Search API, JSON data processing, Git, and GitHub.
-8. What development tool was used for this project?
+
+9. What development tool was used for this project?
+    
 Google AI Studio was used as a development assistance tool for generating, improving, and working with the application code.
-9. Where is the source code maintained?
+
+10. Where is the source code maintained?
+    
 The source code and project documentation are maintained in the GitHub repository.
-10. Can the project be improved in the future?
+
+11. Can the project b improved in the future?
+    
 Yes. Future improvements may include advanced filtering, category-based searching, sorting options, detailed book pages, favorites or bookmarks, and additional book information.
 
 ---
@@ -332,7 +344,7 @@ Book Search Dashboard
 
 ---
 
-##⭐ Conclusion
+## ⭐ Conclusion
 
 The Book Search Dashboard demonstrates the use of Python, Streamlit, and API integration.
 It uses the Open Library Search API for real-time book searching.
