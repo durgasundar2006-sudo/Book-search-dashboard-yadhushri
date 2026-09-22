@@ -317,39 +317,39 @@ https://github.com/durgasundar2006-sudo/Book-search-dashboard-yadhushri⁠�
    
 The Book Search Dashboard is a Streamlit-based web application that allows users to search and explore book information using the Open Library Search API.
 
-3. What can users search for?
+2. What can users search for?
    
 Users can search for books using a book title, author name, or keyword.
 
-4. Where does the book information come from?
+3. Where does the book information come from?
 
 The application retrieves book information from the Open Library Search API.
 
-5. Does the application use a database?
+4. Does the application use a database?
    
 No. The application retrieves book information directly from the Open Library Search API and does not require a separate database.
 
-6. What information is displayed for each book?
+5. What information is displayed for each book?
    
 Depending on the information available from the API, the application can display the book title, author, publication year, publisher, cover image, and Open Library link.
 
-7. Does the application require authentication?
+6. Does the application require authentication?
    
 No. The application does not require user authentication or account creation to perform book searches.
 
-8. What technologies are used in this project?
+7. What technologies are used in this project?
    
 The project uses Python, Streamlit, the Open Library Search API, JSON data processing, Git, and GitHub.
 
-9. What development tool was used for this project?
+8. What development tool was used for this project?
     
 Google AI Studio was used as a development assistance tool for generating, improving, and working with the application code.
 
-10. Where is the source code maintained?
+9. Where is the source code maintained?
     
 The source code and project documentation are maintained in the GitHub repository.
 
-11. Can the project b improved in the future?
+10. Can the project b improved in the future?
     
 Yes. Future improvements may include advanced filtering, category-based searching, sorting options, detailed book pages, favorites or bookmarks, and additional book information.
 
