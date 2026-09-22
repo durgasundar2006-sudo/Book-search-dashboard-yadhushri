@@ -207,13 +207,20 @@ The data flow of the Book Search Dashboard is shown below.
 The project contains the main Streamlit application file along with the required documentation and configuration files.
 
 Book-search-dashboard-yadhushri/
+
 │
 ├── app.py
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── .gitignore
+
 ├── System-flowchart.png
+
 └── Data-Flow-Diagram.png
+
 ---
 ##⚙️ Installation Steps
 
