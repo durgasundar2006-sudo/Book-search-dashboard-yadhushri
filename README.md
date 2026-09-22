@@ -318,6 +318,7 @@ The Book Search Dashboard is a Streamlit-based web application that allows users
 3. What can users search for?
    
 Users can search for books using a book title, author name, or keyword.
+
 4. Where does the book information come from?
 
 The application retrieves book information from the Open Library Search API.
