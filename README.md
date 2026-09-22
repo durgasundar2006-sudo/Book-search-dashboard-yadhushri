@@ -188,7 +188,7 @@ The system follows a simple sequence from entering a search query to displaying 
 
 The system flow of the Book Search Dashboard is shown below.
 
-![System Flowchart](system-%20flowchart.png)
+![System Flowchart](./System-flowchart.png)
 
 ---
 🔁 Data Flow Diagram
