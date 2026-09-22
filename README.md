@@ -176,7 +176,7 @@ The Book Search Dashboard follows a simple architecture in which the user intera
 
 The system architecture of the Book Search Dashboard is shown below.
 
-![System Architecture](/system-architecture.png)
+![System Architecture](system-architecture.png)
 
 ---
 
@@ -188,7 +188,7 @@ The system follows a simple sequence from entering a search query to displaying 
 
 The system flow of the Book Search Dashboard is shown below.
 
-![System Flowchart](/system-flowchart.png)
+![System Flowchart](system-flowchart.png)
 
 ---
 🔁 Data Flow Diagram
@@ -198,7 +198,7 @@ The Data Flow Diagram represents how the search query and book information move 
 
 The data flow of the Book Search Dashboard is shown below.
 
-![Data Flow Diagram](/data-flow-diagram.png)
+![Data Flow Diagram](data-flow-diagram.png)
 
 ---
 
