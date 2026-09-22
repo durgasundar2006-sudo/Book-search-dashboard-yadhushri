@@ -130,6 +130,7 @@ The project contains the main Streamlit application file along with the required
 Book-search-dashboard-yadhushri/
 
 │
+
 ├── app.py
 
 ├── README.md
@@ -207,19 +208,33 @@ No separate database is required to store book records.
 
 The application processes a book search through the following pipeline:
 Enter Book Title / Author / Keyword
+
               ↓
+              
        Streamlit Dashboard
+       
               ↓
+              
         Create API Request
+        
               ↓
+              
      Open Library Search API
+     
               ↓
+              
         Receive JSON Data
+        
               ↓
+              
        Process Book Details
+       
               ↓
+              
       Display Search Results
+      
               ↓
+              
         View Book Information
 
  ---
