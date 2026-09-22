@@ -15,18 +15,14 @@ It provides a simple and user-friendly platform to explore book information.
 ## 🛠️ Tools and Technologies Used
 
 ### Application Development
-### Technology
-### Purpose
-Python
-Used as the core programming language for developing the application.
-Streamlit
-Used to create the interactive Book Search Dashboard.
-Open Library Search API
-Used to retrieve book information based on user search queries.
-JSON
-Used to process and handle the data received from the API.
-urllib
-Used to send API requests and retrieve data from the Open Library API.
+
+| **Technology** | **Purpose** |
+|---|---|
+| Python | Used as the core programming language for developing the application. |
+| Streamlit | Used to create the interactive Book Search Dashboard. |
+| Open Library Search API | Used to retrieve book information based on user search queries. |
+| JSON | Used to process and handle the data received from the API. |
+| urllib | Used to send API requests and retrieve data from the Open Library API. |
 
 ---
 
